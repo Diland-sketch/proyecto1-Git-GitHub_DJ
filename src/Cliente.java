@@ -1,6 +1,7 @@
 public class Cliente extends Persona {
 
     private double saldoPendiete;
+    private String user;
 
     public Cliente(String nombre, String apellido, int identifacion, double saldoPendiete) {
         super(nombre, apellido, identifacion);
